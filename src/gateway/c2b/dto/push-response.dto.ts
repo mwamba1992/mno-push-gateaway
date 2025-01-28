@@ -1,6 +1,6 @@
 import { IsString, IsBoolean, IsNotEmpty, IsOptional, IsUUID } from 'class-validator';
 
-export class CreateTransactionResponseDto {
+export class PushResponseDto {
   @IsBoolean()
   @IsNotEmpty()
   status: boolean;
